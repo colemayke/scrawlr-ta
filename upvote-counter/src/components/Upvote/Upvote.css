@@ -1,0 +1,33 @@
+.upvote-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #F4F6F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+  }
+  
+  .upvote-button-selected {
+    background-color: #E5E8FD;
+  }
+  
+  .upvote-button:hover {
+    opacity: 0.9;
+  }
+  
+  .upvote-icon {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    pointer-events: none;
+    filter: brightness(0) saturate(100%) invert(20%) sepia(5%) saturate(1000%) hue-rotate(180deg) brightness(95%) contrast(90%);
+  }
+  
+  .upvote-icon-selected {
+    filter: brightness(0) saturate(100%) invert(37%) sepia(95%) saturate(2844%) hue-rotate(220deg) brightness(98%) contrast(95%);
+  }
+  
